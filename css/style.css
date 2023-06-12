@@ -316,3 +316,11 @@ body {
 .rodapePrincipal-contatoForm-fieldset {
 	display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	/*flex-direction: column;
+	flex-wrap: wrap;*/
+	flex-flow: column wrap; /*atalho desses 2 de cima*/
+	height: 255px;
+}

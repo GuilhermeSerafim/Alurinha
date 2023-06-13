@@ -343,3 +343,16 @@ body {
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
 	margin-left: 0;
 }
+
+/* Parte mobile */
+@media screen and (max-width: 480px) {
+	.cabecalhoPrincipal-nav {
+		flex-direction: column;
+	}
+
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		align-items: initial;
+		text-align: center;
+	}
+}

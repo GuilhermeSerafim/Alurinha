@@ -344,6 +344,10 @@ body {
 	margin-left: 0;
 }
 
+.videoSobre .container {
+	display: flex;
+}
+
 /* Parte mobile */
 @media screen and (max-width: 480px) {
 	.cabecalhoPrincipal-nav {

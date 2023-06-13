@@ -355,4 +355,12 @@ body {
 		align-items: initial;
 		text-align: center;
 	}
+
+	.conteudoPrincipal-cursos {
+		flex-direction: column;
+	}
+	
+	.conteudoPrincipal-cursos-link {
+		width: 100%;
+	}
 }

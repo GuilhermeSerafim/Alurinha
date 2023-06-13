@@ -377,12 +377,15 @@ body {
 		margin: 0;
 		width: 100%;
 	}
-	
+
 	.rodapePrincipal-contatoForm {
 		width: 100%;
 	}
 
 	.rodapePrincipal-contatoForm-fieldset {
 		justify-content: center;
+	}
+	.cabecalhoPrincipal-nav-link-app {
+		order: -1;
 	}
 }
